@@ -1,0 +1,163 @@
+:root {
+	--background: #2d3250;
+	--container-background: #7077a1;
+	--side-bar: #424769;
+	--black: rgb(0, 0, 0);
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	background-color: var(--black);
+	color: var(--black);
+	border: 1px solid var(--black);
+}
+
+h1 {
+	font-weight: 160;
+	font-size: 50px;
+	margin: 0;
+	padding-left: 30px;
+}
+
+h3 {
+	margin: 0;
+}
+
+p {
+	font-weight: 200;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a > div {
+	display: inline;
+}
+
+.button {
+	display: grid;
+	align-content: center;
+	justify-items: center;
+	grid-template-columns: 3vw 3vw;
+	width: 7.5vw;
+	height: 5vh;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.github-button {
+	background-color: #010409;
+}
+
+.github-button > img {
+	width: 1.2vw;
+}
+
+.linkedin-button {
+	background-color: #0077b5;
+}
+
+.link-buttons {
+	width: 16vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.page-content {
+	display: grid;
+	width: 100%;
+}
+
+.profile-image {
+	width: 8vw;
+	border-radius: 80px;
+}
+
+.grid-columns {
+	grid-template-columns: 10% 90%;
+}
+
+.nav-bar {
+	background-color: var(--side-bar);
+	height: 100%;
+	display: grid;
+	justify-items: center;
+}
+
+.side-nav {
+	width: 8vw;
+	position: fixed;
+}
+
+.side-nav > ul {
+	list-style: none;
+	padding: 0;
+}
+
+.side-nav > ul > li {
+	margin-bottom: 1vh;
+	text-align: center;
+}
+
+.side-nav > ul > li > a {
+	display: block;
+	background-color: var(--container-background);
+	height: 4vh;
+	border-radius: 10px;
+	align-content: center;
+	font-size: 2vh;
+}
+
+.data-container {
+	width: 100%;
+	background-color: var(--background);
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+
+.data-container-content {
+	width: 80%;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+.about-data-container {
+	height: 100vh;
+}
+
+.personal-data {
+	width: 50%;
+	color: white;
+}
+
+.session-title {
+	color: white;
+	background-color: var(--container-background);
+	width: 99%;
+	border-radius: 10px;
+	box-shadow: 6px 6px 20px var(--black);
+}
+
+.data-container-item {
+	color: white;
+	width: 100%;
+	background-color: var(--container-background);
+	padding: 15px;
+	border-radius: 20px;
+	box-shadow: 6px 6px 20px var(--black);
+}
